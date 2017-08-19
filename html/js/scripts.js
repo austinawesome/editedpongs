@@ -13,7 +13,7 @@ var logic = function(i) {
     }
   return feedback;
   }
- 
+
 
 
 
@@ -23,14 +23,14 @@ $(document).ready(function() {
     event.preventDefault();
     var userInput = $("#message").val();
     var gameEnd = parseInt(userInput);
-
-    for(i=1;i<gameEnd;i++){
-      var output=logic(i);
+    $(".pictures img").addClass("hidden");
+    
+    for(i=1;i<=gameEnd;i++){
+      output=logic(i);
       $("#results").prepend("<P>" + output + "</p>");
       }
-
-
-
-
-});
+      if (output === 'ping' || output === 'pong' || output === 'ping-pong') {
+            $("#" + output).removeClass("hidden");
+          }
+  });
 });
