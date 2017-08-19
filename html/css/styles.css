@@ -1,11 +1,16 @@
 body{
   background-color: rgba(56, 48, 171, 0.50);
 }
+/*.everything {
+left ;
+}*/
 
 .hidden {
   display: hidden;
 }
-
+#heads {
+  padding-left: 7vw;
+}
 #ping {
     position: fixed;
     top: 30vh;
@@ -15,18 +20,20 @@ body{
 
 #pong {
     position: fixed;
-    top: 16vh;
-    bottom:1vh;
+    bottom: 16vh;
     left: 53vw;
     margin: auto;
 }
 
 #ping-pong {
     position: fixed;
-    top: 10vh;
-    bottom:1vh;
+    bottom:10vh;
     left: 27vw;
     margin: auto;
+}
+.pictures {
+z-index: 1000;
+
 }
 
 .form-group{
@@ -36,7 +43,7 @@ body{
 .button {
   position: fixed;
   border: 1px;
-   right: 44vw;
+   right: 42vw;
    width: 12vw;
 }
 
