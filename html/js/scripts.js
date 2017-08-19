@@ -1,9 +1,20 @@
-var loopit = function(gameEnd) {
-  for(i=1;i<gameEnd;i++){
-    feedback =i;
+var logic = function(i) {
+  var score=parseInt(i);
+  if ( i  % 3 === 0 ||  i  % 5 === 0) {
+    if ( i  % 15 === 0) {
+      var feedback = "ping-pong";
+    } else if ( i  % 3 === 0) {
+      var feedback = "ping";
+    } else if ( i  % 5 === 0) {
+      var feedback = "pong";
     }
-    return feedback;
-}
+    } else {
+     var feedback = parseInt(score);
+    }
+  return feedback;
+  }
+ 
+
 
 
 
@@ -12,11 +23,9 @@ $(document).ready(function() {
     event.preventDefault();
     var userInput = $("#message").val();
     var gameEnd = parseInt(userInput);
-    var output = loopit(gameEnd);
-    $("#results").prepend("<P>" + output + "</p>");
+
     for(i=1;i<gameEnd;i++){
-      feedback =i;
-      output = i;
+      var output=logic(i);
       $("#results").prepend("<P>" + output + "</p>");
       }
 
