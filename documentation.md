@@ -5,4 +5,11 @@ id:
   form-whole  ; the input forms
   message     : where user enters text
   results     ; where we place outputs
-  
+
+classes
+.form-group
+.button
+
+
+Pseudo ids
+input:
