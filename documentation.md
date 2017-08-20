@@ -9,6 +9,11 @@ id:
 classes
 .form-group
 .button
+hidden
+pictures      ; this holds flash screen pictures
+container
+button        
+results       ; this is program output
 
 
 Pseudo ids
