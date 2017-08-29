@@ -26,8 +26,8 @@ $(document).ready(function() {
     var gameEnd = parseInt(userInput);
     $(".pictures img").addClass("hidden");
 
-    for(i=1;i<=gameEnd;i++){
-      output=logic(i);
+    for(var i=1;i<=gameEnd;i++){
+      var output=logic(i);
       $("#results").prepend("<P>" + output + "</p>");
     }
       if (output === 'ping' || output === 'pong' || output === 'ping-pong') {
