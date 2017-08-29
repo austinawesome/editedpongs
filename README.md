@@ -29,9 +29,12 @@ Technologies Used
 {HTML, CSS, JS, regex bootstrap}
 
 specifications
+output can countup to provided number                        || 2  || [1,2]
 
-Program accepts user input of a number on only accepts numbers.
-program accepts number and then calls function upon it; --  Program records userInput and stores it as a limiting element to count up to;
- system evaluates if number is divisible by "5 or 3" if yes, evaluates if divisible by "15" as first part of loop to lower the amount of processing required. assigned output values to results of 3,5,15 divisibility; returns output to front end front evaluates if it should reveal pictures, and does so accordingly after reporting the "score" to the user. basic game {input = 16, output =1,2ping , 4 pong, ping, 7 8 ping pong 11 ping 13 14 ping-pong, 16}
+output can replace numbers divisible by 3 with "ping"       || 3  || [1,2,ping]
+
+output can replace  numbers divisible by 5 with "pong"       || 5  || [1, 2, ping, 4, pong [1,2,ping,4, pong]
+
+output can replace numbers divisible by 15 with "ping-pong" || 15 || [1, 2, ping, 4, pong, ping, 7, 8, 9, pong, 11, ping, 13, 14, ping-pong]
 
 Copyright (c) 2016 {Austin Cummings}

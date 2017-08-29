@@ -8,19 +8,20 @@ left ;
 .hidden {
   display: hidden;
 }
+
 #heads {
   padding-left: 7vw;
 }
+
 #ping {
     position: fixed;
     top: 30vh;
     padding-left: 7vw;
-
 }
 
 #pong {
     position: fixed;
-    bottom: 16vh;
+    top: 30vh;
     left: 53vw;
     margin: auto;
 }
@@ -31,9 +32,9 @@ left ;
     left: 27vw;
     margin: auto;
 }
+
 .pictures {
 z-index: 1000;
-
 }
 
 .form-group{
@@ -43,17 +44,17 @@ z-index: 1000;
 .button {
   position: fixed;
   border: 1px;
-   right: 42vw;
-   width: 12vw;
+  right: 42vw;
+  width: 12vw;
 }
 
 #results {
   position: fixed;
-  right: 40vw;
-  top: 80vh;
+  right: 22vw;
+  top: 17vh;
   font-size: 24pt;
   font-family: fantasy;
-  color: red;
+  color: rgba(205, 14, 122, 0.84);
 }
 
 input:required {
