@@ -28,7 +28,8 @@ Technologies Used
 
 {HTML, CSS, JS, regex bootstrap}
 
-specifications
+--Specifications--
+
 output can countup to provided number                        || 2  || [1,2]
 
 output can replace numbers divisible by 3 with "ping"       || 3  || [1,2,ping]
