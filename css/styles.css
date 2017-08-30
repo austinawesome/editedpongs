@@ -1,51 +1,18 @@
 body{
-  background-color: rgba(56, 48, 171, 0.50);
-}
-/*.everything {
-left ;
-}*/
-
-.hidden {
-  display: none;
+  background-color: rgba(56, 48, 171, 1.0);
 }
 
 #heads {
   padding-left: 7vw;
 }
 
-#ping {
-  position: fixed;
-  top: 30vh;
-  padding-left: 7vw;
-}
-
-#pong {
-  position: fixed;
-  top: 30vh;
-  left: 53vw;
-  margin: auto;
-}
-
-#ping-pong {
-  position: fixed;
-  top: 30vh;
-  left: 30vw;
-  margin: auto;
-}
-
-.pictures {
-  z-index: -1;
-}
 
 .form-group{
   text-align: center;
 }
 
 .button {
-  position: fixed;
   border: 1px;
-  right: 42vw;
-  width: 12vw;
 }
 
 #titleResults {
@@ -56,17 +23,17 @@ left ;
   font-size: 14pt;
   color: lime;
 }
+
 #results {
   height: 800px;
-  width: 2000px;
+  width: 100%;
   padding: 10px;
-  position: fixed;
-  right: 22vw;
-  /*top: 17vh;*/
   font-size: 50pt;
-  font-display: block;
   color: lime;
+  background-color: rgba(56, 48, 171, .40);
 }
+
+
 
 input:required {
   box-shadow: 4px 4px 20px rgba(205, 14, 122, 0.84);
@@ -84,4 +51,7 @@ input:required:hover {
 #message {
   right: 45vw;
   width: 14vw;
+}
+ul {
+  display: inline-block;
 }
