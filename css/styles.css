@@ -4,10 +4,10 @@ body{
 /*.everything {
 left ;
 }*/
-/*
+
 .hidden {
   display: none;
-}*/
+}
 
 #heads {
   padding-left: 7vw;
@@ -28,13 +28,13 @@ left ;
 
 #ping-pong {
   position: fixed;
-  bottom:10vh;
-  left: 27vw;
+  top: 30vh;
+  left: 30vw;
   margin: auto;
 }
 
 .pictures {
-  z-index: 1000;
+  z-index: -1;
 }
 
 .form-group{
@@ -48,13 +48,24 @@ left ;
   width: 12vw;
 }
 
+#titleResults {
+  display: block;
+  position: fixed;
+  right: 40vw;
+  top: 35vh;
+  font-size: 14pt;
+  color: lime;
+}
 #results {
+  height: 800px;
+  width: 2000px;
+  padding: 10px;
   position: fixed;
   right: 22vw;
-  top: 17vh;
-  font-size: 24pt;
-  font-family: fantasy;
-  color: rgba(205, 14, 122, 0.84);
+  /*top: 17vh;*/
+  font-size: 50pt;
+  font-display: block;
+  color: lime;
 }
 
 input:required {

@@ -24,7 +24,7 @@ $(document).ready(function() {
 
     for(var i=1;i<=gameEnd;i++){
       var output=logic(i);
-      $("#results").prepend("<P>" + output + "</p>");
+      $("#results").prepend("<P>" + output + "<br></p>");
     }
     if (output === 'ping' || output === 'pong' || output === 'ping-pong') {
       $("#" + output).removeClass("hidden");
