@@ -4,37 +4,37 @@ body{
 /*.everything {
 left ;
 }*/
-
+/*
 .hidden {
-  display: hidden;
-}
+  display: none;
+}*/
 
 #heads {
   padding-left: 7vw;
 }
 
 #ping {
-    position: fixed;
-    top: 30vh;
-    padding-left: 7vw;
+  position: fixed;
+  top: 30vh;
+  padding-left: 7vw;
 }
 
 #pong {
-    position: fixed;
-    top: 30vh;
-    left: 53vw;
-    margin: auto;
+  position: fixed;
+  top: 30vh;
+  left: 53vw;
+  margin: auto;
 }
 
 #ping-pong {
-    position: fixed;
-    bottom:10vh;
-    left: 27vw;
-    margin: auto;
+  position: fixed;
+  bottom:10vh;
+  left: 27vw;
+  margin: auto;
 }
 
 .pictures {
-z-index: 1000;
+  z-index: 1000;
 }
 
 .form-group{
@@ -71,6 +71,6 @@ input:required:hover {
 }
 
 #message {
- right: 45vw;
- width: 14vw;
+  right: 45vw;
+  width: 14vw;
 }

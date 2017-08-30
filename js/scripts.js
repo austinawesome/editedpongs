@@ -15,10 +15,6 @@ var logic = function(i) {
   return feedback;
 }
 
-
-
-
-
 $(document).ready(function() {
   $("form#form-whole").submit(function(event) {
     event.preventDefault();
@@ -30,8 +26,8 @@ $(document).ready(function() {
       var output=logic(i);
       $("#results").prepend("<P>" + output + "</p>");
     }
-      if (output === 'ping' || output === 'pong' || output === 'ping-pong') {
-            $("#" + output).removeClass("hidden");
-      }
+    if (output === 'ping' || output === 'pong' || output === 'ping-pong') {
+      $("#" + output).removeClass("hidden");
+    }
   });
 });
